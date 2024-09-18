@@ -1,0 +1,60 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="6.0.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+    <PackageReference Include="NUnit" Version="3.14.0" />
+    <PackageReference Include="NUnit.Analyzers" Version="3.9.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProblemSet\ProblemSet.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="NUnit.Framework" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Patterns\01.TwoPointers\" />
+    <Folder Include="Patterns\02.Fast&amp;SlowPointers\" />
+    <Folder Include="Patterns\03.SlidingWindow\" />
+    <Folder Include="Patterns\04.MergeIntervals\" />
+    <Folder Include="Patterns\05.CyclicSort\" />
+    <Folder Include="Patterns\06.InPlaceReversalOfLinkedList\" />
+    <Folder Include="Patterns\07.Stacks\" />
+    <Folder Include="Patterns\08.MonotonicStack\" />
+    <Folder Include="Patterns\09.HashMaps\" />
+    <Folder Include="Patterns\10.TreeBreadthFirstSearch\" />
+    <Folder Include="Patterns\11.TreeDepthFirstSearch\" />
+    <Folder Include="Patterns\12.Graphs\" />
+    <Folder Include="Patterns\13.Island%28Matrix Traversal%29\" />
+    <Folder Include="Patterns\14.TwoHeaps\" />
+    <Folder Include="Patterns\15.Subsets\" />
+    <Folder Include="Patterns\16.ModifiedBinarySearch\" />
+    <Folder Include="Patterns\17.BitwiseXOR\" />
+    <Folder Include="Patterns\18.TopKElements\" />
+    <Folder Include="Patterns\19.K-wayMerge\" />
+    <Folder Include="Patterns\20.GreedyAlgorithms\" />
+    <Folder Include="Patterns\21.Knapsack\" />
+    <Folder Include="Patterns\22.Backtracking\" />
+    <Folder Include="Patterns\23.Trie\" />
+    <Folder Include="Patterns\24.TopoligicalSort\" />
+    <Folder Include="Patterns\25.UnionFind\" />
+    <Folder Include="Patterns\26.OrderedSet\" />
+    <Folder Include="Patterns\27.PrefixSum\" />
+    <Folder Include="Patterns\28.MultiThreaded\" />
+    <Folder Include="WarmUpTests\" />
+  </ItemGroup>
+
+</Project>
