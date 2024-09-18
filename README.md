@@ -38,47 +38,47 @@ Follow these instructions to set up the project on your local machine for develo
 
 2. **Open the solution in Visual Studio:** 
 - Navigate to the cloned directory.
-- Open the .sln file with Visual Studio.
+- Open the `.sln` file with Visual Studio.
 
 3. **Restore NuGet packages:**
 - Visual Studio should automatically restore any necessary packages.
-- If not, go to Tools > NuGet Package Manager > Package Manager Console and run:
+- If not, go to `Tools` > `NuGet Package Manager` > `Package Manager Console` and run:
   ```PowerShell
     Update-Package -Reinstall
   ```  
 ## Usage
 ### Running Individual Tests
 You can run individual tests to check each solution:
-- Open Test Explorer in Visual Studio (Test > Test Explorer).
-- To run all tests, press Ctrl + R, then A.
+- Open **Test Explorer** in Visual Studio (`Test` > `Test Explorer`).
+- To run all tests, press `Ctrl + R`, then `A`.
 - To run a specific test:
--- Select the test in Test Explorer.
--- Press Ctrl + R, then T, or right-click and select Run Selected Tests.
+  - Select the test in **Test Explorer**.
+  - Press `Ctrl + R`, then `T`, or right-click and select **Run Selected Tests**.
 
 ## Solutions
 Each folder in the repository corresponds to a specific topic or problem set. For each problem set, you'll find:
-- Solution Code: The C# implementation of the problem.
-- Explanation: Comments and notes explaining the logic and approach.
-- Unit Tests: Test cases to verify the solution's correctness.
+- **Solution Code:** The C# implementation of the problem.
+- **Explanation:** Comments and notes explaining the logic and approach.
+- **Unit Tests:** Test cases to verify the solution's correctness.
 
 Feel free to explore the code and run the tests to see how each solution works.
 
 ## Contributing
 Contributions are welcome! If you'd like to improve existing solutions or add new ones:
-1. Fork the repository.
-2. Create a new branch:
+1. **Fork the repository.**
+2. **Create a new branch:**
 ```bash
 git checkout -b feature/your-feature-name
 ```
-3. Commit your changes:
+3. **Commit your changes:**
 ```bash
 git commit -m 'Add new solution for problem X'
 ```
-4. Push to the branch:
+4. **Push to the branch:**
 ```bash
 git push origin feature/your-feature-name
 ```
-5. Open a Pull Request.
+5. **Open a Pull Request.**
 
 ## Acknowledgments
 - **Design Gurus** for the **Grokking the Coding Interview** course.
