@@ -1,5 +1,7 @@
 # Grokking the Coding Interview in C\#
 
+![Under Construction](https://img.shields.io/badge/status-under_construction-yellow)
+
 This repository contains my C# solutions to the problems from **Grokking the Coding Interview**. Each solution includes explanations to help you understand the problem-solving approach.
 
 ## Table of Contents
